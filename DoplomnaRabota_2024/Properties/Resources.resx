@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fazer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ploskosti\fazer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="betonovoblokche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\betonovoblokche.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\beton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vuzdohovod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\vuzdohovod.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lepilo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\lepilo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="talpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\durvenmaterial\talpi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="varovashpaklovka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\varovashpaklovka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prozorec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\prozorec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shturc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\shturc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lamarina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\metali\lamarina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="periodichenprofil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\metali\periodichenprofil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventblock1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\ventblock1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="osb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ploskosti\osb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cimentovasmes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\uplutniteliifugi\cimentovasmes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="workingtime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\workingtime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ondakeremida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\ondakeremida.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profileicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\profileicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cimentovazamaska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\cimentovazamaska.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="letva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\durvenmaterial\letva.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventblock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\ventblock.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\redline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="samorazlivashtasmes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\samorazlivashtasmes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kolichka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\kolichka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gipsovashpaklovka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\gipsovashpaklovka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tondahkeremida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\tondahkeremida.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pqna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\uplutniteliifugi\pqna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="workingtime1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\workingtime1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chelnaduska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\durvenmaterial\chelnaduska.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fibri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\fibri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gips25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\gips25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ytongshturc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\ytongshturc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shtori" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\shtori.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gipsovolepilo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\gipsovolepilo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kofrajnoplatno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ploskosti\kofrajnoplatno.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prozorec1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\prozorec1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parodifuznamembrana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\parodifuznamembrana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podpokrivnofolio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\podpokrivnofolio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keremidnamembrana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\keremidnamembrana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cimentovapodovazamaska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\cimentovapodovazamaska.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\blackline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vupros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\vupros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="krainalqva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\krainalqva.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ytongtuhla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\ytongtuhla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ogneopornatuhla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\ogneopornatuhla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pchelnapita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\pchelnapita.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tuhla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\tuhla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="passwordicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\passwordicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="silikonovmaterial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\uplutniteliifugi\silikonovmaterial.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keremidnamembrana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\keremidnamembrana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugirashtasmes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\uplutniteliifugi\fugirashtasmes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\durvenmaterial\greada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telefon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\telefon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconpng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\iconpng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shperplat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ploskosti\shperplat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="betonzaankenirane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\betonzaankenirane.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mrejarmaturna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\metali\mrejarmaturna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="silenciment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\silenciment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="burzozasuhvasht" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\burzozasuhvasht.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="distancial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\ploskosti\distancial.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="varovikovciment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\varovikovciment.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profilepicture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\profilepicture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mrejazazamaska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\metali\mrejazazamaska.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="krainalqvakeremida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\pokrivniSistemi\krainalqvakeremida.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kofrajniduski" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\durvenmaterial\kofrajniduski.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kominnasistema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\materializazidariq\kominnasistema.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lepilo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\lepilo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telarmaturna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\metali\telarmaturna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lepilotoploizolaciq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\lepilotoploizolaciq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gips5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\suhistroitelnismesi\gips5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo2 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\logo2 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
